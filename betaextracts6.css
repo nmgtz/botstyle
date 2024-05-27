@@ -1,5 +1,4 @@
-
-        * {
+ * {
             padding : 0;
             margin : 0;
             font-family:  ui-sans-serif, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica, Apple Color Emoji, Arial, Segoe UI Emoji, Segoe UI Symbol;;
@@ -33,7 +32,7 @@
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent; 
-    text-fill-color: transparent; 
+    /*text-fill-color: transparent; */
 }
         .my-chat-bot {
             padding: 0;
@@ -150,14 +149,13 @@
         text-align: left;
        }
        #speakButton {
-        padding :5px;
-        margin: 10px;
         border : none;
-        background-image: linear-gradient(to right, rgb(197, 9, 214), rgb(13, 13, 252));
-        border-radius: 5px;
-        color: white;
+        color: black;
+        background: none;
         font-weight: bolder;
         text-transform: capitalize;
+        font-size : 100%;
+        margin: 5px;
        }
 
        #light {
